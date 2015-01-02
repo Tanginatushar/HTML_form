@@ -8,7 +8,7 @@ $modified = $_POST['modified'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "rts",
+    "lict@2",
     "registration");
 $query = "INSERT INTO `registration`.`registrationForm` (
 `fullName` ,
@@ -22,12 +22,11 @@ VALUES (
 '$fullName', '$email', '$userName', '$password', NOW( ) , NOW( )
 )";
 mysqli_query($link, $query);
-print_r($query);
+//print_r($query);
 
 ?>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+<head >
     <title>Log In</title>
 </head>
 <body>
@@ -44,5 +43,5 @@ print_r($query);
 </body>
 </html>
 <ul>
-    <a href="registration.php">register again</a>
+    <a href="registration.php">register now</a>
 </ul>

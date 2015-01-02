@@ -9,12 +9,12 @@
 <form action ="login.php"method="post">
     <h3>Register Here: </h3></br>
 Full Name:<input type="text"name="fullName"></br>
-email: <input type="text"name="email"></br>
+Email: <input type="text"name="email"></br>
 User Name: <input type="text"name="userName"required=" userName"></br>
-password: <input type="password"name="password"required=" password"></br>
+Password: <input type="password"name="password"required=" password"></br>
 
     </br>
-    <input type="submit"value="register">
+    <input type="submit"value="Register now">
 </form>
 
 
