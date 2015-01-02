@@ -16,7 +16,7 @@ $result = mysqli_query($link, $query);
 $rowpassword = mysqli_fetch_assoc($result);
 
 
-{if (isset($userName) && !empty ($userName)) {
+if (isset($userName) && !empty ($userName)) {
         $userName = $_POST['userName'];
     }else {echo "error";}
 
@@ -33,6 +33,6 @@ $rowpassword = mysqli_fetch_assoc($result);
     else {
         echo "User Name and password error";
     }
-}
+
 ?>
 
