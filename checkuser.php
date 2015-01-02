@@ -28,6 +28,10 @@ $_SESSION["password"] = " ";
 echo "Hello";
 }
 else {
-
+echo "User Name and password error";
 }
 ?>
+
+<ul>
+    <a href="registration.php">register again</a>
+</ul>
